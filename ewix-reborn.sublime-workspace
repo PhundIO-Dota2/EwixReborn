@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"CreateT",
+				"CreateTimer"
+			],
+			[
+				"getspecia",
+				"GetLevelSpecialValueFor"
+			],
+			[
+				"OnAttac",
+				"OnAttackLanded	Hit"
+			],
+			[
+				"OnAtta",
+				"OnAttackLanded	Hit"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"Plcaeh",
+				"placeholder"
+			],
+			[
+				"modifier_state_no",
+				"MODIFIER_STATE_NO_UNIT_COLLISION"
+			],
+			[
+				"modifier",
+				"modifierName"
+			],
+			[
+				"getspecil",
+				"GetLevelSpecialValueFor"
+			],
+			[
+				"setbasehel",
+				"SetBaseMaxHealth"
+			],
+			[
+				"order",
+				"OrderType"
+			],
+			[
+				"ability",
+				"abilityName"
+			],
+			[
+				"build",
+				"building"
+			],
+			[
+				"MOD",
+				"MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE"
+			],
+			[
+				"entindex",
+				"entindex"
+			],
+			[
+				"update",
+				"updateBlock"
+			],
+			[
+				"heal",
+				"Heal"
+			],
+			[
+				"applyda",
+				"ApplyDataDrivenModifier"
+			],
+			[
+				"getitem",
+				"GetItemInSlot"
+			],
+			[
+				"getowner",
+				"GetOwnerEntity"
+			],
+			[
+				"getplayerown",
+				"GetPlayerOwnerID"
+			],
+			[
+				"entind",
+				"entindex"
+			],
+			[
+				"getowne",
+				"GetOwnerEntity"
+			],
+			[
+				"sethas",
+				"SetHasInventory"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"ent",
+				"entindex"
+			],
+			[
+				"apply",
+				"ApplyDataDrivenModifier"
+			],
+			[
+				"building",
+				"building_ability"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/workspace/EwixReborn"
+	],
+	"file_history":
+	[
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/addon_game_mode.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/heroes/npc_petri_kvn_fan.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/events.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/gamemode.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/settings.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/wall.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_upgrade_wall.txt",
+		"/C/Users/TideSofDarK/Desktop/Мирорро - один из воителей",
+		"/C/Users/TideSofDarK/Desktop/автоагро у квн",
+		"/C/Users/TideSofDarK/Documents/Загрузки/Autodesk.AutoCAD.2016.x86.x64.eng.rus/LAVteam.nfo",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/scripts/custom_game/ability_tooltip.js",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_ward.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/peasant.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/kvn_fan.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/internal/util.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/gather_lumber.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_hook.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_building.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_grease.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/filters.lua",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/scripts/custom_game/exchange.js",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/lottery.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/panorama/localization/addon_english.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/panorama/localization/addon_russian.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/petrosyan.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/items/grease.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/resource/addon_russian.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/tooltips_russian.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/resource/addon_english.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/tooltips_english.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/scripts/custom_game/abilities/ability.js",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_upgrade.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/layout/custom_game/custom_ui_manifest.xml",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/heroes/npc_petri_mini_actor.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_mini_actor_phase.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_upgrade_tower_of_evil.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/styles/custom_game/ability.css",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/layout/custom_game/ability_tooltip.xml",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/styles/custom_game/ability_tooltip.css",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/layout/custom_game/abilities/ability.xml",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/npc_abilities_override.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/styles/custom_game/exchange.css",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/layout/custom_game/exchange/exchange.xml",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/libraries/notifications.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_upgrade_exchange.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/styles/custom_game/custom_loading_screen.css",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/layout/custom_game/custom_loading_screen.xml",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_janitor.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_invisibility.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/commands.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/internal/gamemode.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/sawmill.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_upgrade_tent.txt",
+		"/E/workspace/PetriReborn/dummy_creator/dummy.xml",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_petrosyan_flat_joke.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_shields.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_swords.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/buildings/bh_abilities.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/triggers/area_trigger.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_books.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/janitor.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_give_permission_to_build.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/exploration_tree.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_zirconia_armor.txt",
+		"/C/Users/TideSofDarK/Desktop/лаги",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/libraries/dependencies.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/creep.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_invulnerable_creep.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_bracer.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/kv/dependencies.kv",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/kv/building_menus.kv",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_super_peasant.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_magic_immunity.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_wall.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/gold_tower.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/idol.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/lab.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/gold_bag.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/food_building.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/tower.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_upgrade_basic_tower.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/tower_of_evil.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/libraries/buildinghelper.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_upgrade_earplugs.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_upgrade_tower_damage.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_peasant.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/ward.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_creep_kvn_actor.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_creep_humorist.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/return_resources.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_exploration_tower.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_creep_good_actor.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/layout/custom_game/dummy.xml",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_upgrade_gold_tower.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_creep_dead_actor.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/units/exploration_tower.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/heroes/npc_petri_elena.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/heroes/npc_petri_petrosyan.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_exploration_tower_explore_world.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/scripts/custom_game/abilities/abilities_container.js",
+		"/E/Program Files (x86)/Steam/SteamApps/common/dota 2 beta/content/dota_addons/rpg_example/panorama/scripts/custom_game/rpg_example_main.js",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_sawmill.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_creep_draconoid.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_gold_tower.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/has_build_queue.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_kvn_medal.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/scripts/custom_game/building_helper.js",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_gold_bag.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_defence_scroll.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_attack_scroll.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_tower_basic.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_make_a_bet.txt",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/panorama/styles/custom_game/abilities_container.css",
+		"/E/workspace/PetriReborn/content/dota_addons/petri_reborn/addon_russian_utf8.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/items/attack_scroll.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/shops/petri_alpha_dire_shops.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/shops/petri_alpha_shops.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_mega_sith.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_stone_of_power.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/build_petri_wall.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/libraries/animations.lua",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_repair.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_idol.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/heroes/npc_petri_dummy_hero.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_lab.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_janitor_take_items_from_stash.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_janitor_transfer_items.txt",
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/resource/addon_schinese.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"E:\\workspace\\PetriReborn\\game\\dota_addons\\petri_reborn\\scripts",
+			"E:\\workspace\\PetriReborn",
+			"E:\\workspace\\PetriReborn\\content\\dota_addons\\petri_reborn\\panorama\\scripts",
+			"E:\\workspace\\PetriReborn\\game\\dota_addons\\petri_reborn\\scripts\\vscripts",
+			"E:\\workspace\\PetriReborn\\game\\dota_addons\\petri_reborn\\scripts\\vscripts\\units",
+			"E:\\workspace\\PetriReborn\\game\\dota_addons\\petri_reborn\\scripts",
+			"E:\\workspace\\PetriReborn\\game\\dota_addons\\petri_reborn\\scripts\\vscripts",
+			"E:\\workspace\\PetriReborn\\content\\dota_addons\\petri_reborn\\panorama\\scripts\\custom_game",
+			"E:\\workspace\\PetriReborn\\content\\dota_addons\\petri_reborn\\panorama\\scripts",
+			"E:\\workspace\\PetriReborn\\content\\dota_addons\\petri_reborn\\panorama",
+			"E:\\workspace\\PetriReborn\\content\\dota_addons\\petri_reborn\\panorama\\scripts",
+			"E:\\workspace\\PetriReborn\\content\\dota_addons\\petri_reborn\\panorama\\layout",
+			"E:\\workspace\\PetriReborn\\game\\dota_addons\\petri_reborn\\resource\\flash3",
+			"E:\\workspace\\PetriReborn\\content\\dota_addons\\petri_reborn\\panorama\\scripts",
+			"E:\\workspace\\PetriReborn\\content\\dota_addons\\petri_reborn\\panorama\\styles\\custom_game",
+			"E:\\workspace\\PetriReborn\\content\\dota_addons\\petri_reborn\\panorama",
+			"E:\\workspace\\PetriReborn\\game\\dota_addons\\petri_reborn\\scripts\\vscripts\\units"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ReplaceWithMiniActor",
+			"move_t",
+			"positi",
+			"GetRandomAliveKvnFan",
+			"items",
+			"unit_propertie",
+			"DOTA_Tooltip_ability_item_recipe_petri_kvn_fan_cool_blink_Description",
+			"phas",
+			"style.position",
+			"m_panel",
+			"visib",
+			"visibl",
+			"visible",
+			"$.GetContextPanel()",
+			"visib",
+			"width",
+			"AbilityShowTooltip",
+			"ShowTooltip",
+			"hover",
+			"ServerToAllClients",
+			"visibility",
+			"invisible",
+			"make",
+			"hero.currentArea",
+			"keys.",
+			"caster",
+			"ward",
+			"skip",
+			"spawn",
+			"mgd",
+			"util",
+			"createun",
+			"mgd",
+			"timer",
+			"tower",
+			"upgrade ",
+			"upgrade tower",
+			"evil",
+			"ToggleAbility",
+			"togg",
+			"tog",
+			"toggl",
+			"swap",
+			"hidd",
+			"GameMode.buildingMenus",
+			"swap",
+			"sethid",
+			"createtim",
+			"creattim",
+			"DOTA_ABILITY_BEHAVIOR",
+			"PrepareUnitOrders",
+			"asd",
+			"ToggleAbility",
+			"CheckBuildingPosition",
+			"modifier_returning_resources",
+			"CheckBuildingPosition",
+			"building =",
+			"building ",
+			"validpos",
+			"OutOfWorldVector",
+			"ValidPosition",
+			"queue",
+			"createun",
+			"CreateUnitByName",
+			"\"",
+			"\"\"",
+			"\"",
+			"LOTTERY_STATE",
+			"update_selected_entities",
+			"clear",
+			"scroll",
+			"UpdateAbilitiesContainer",
+			"Update()",
+			"Update",
+			"SetHullRadius",
+			"dota_player_update_selected_unit",
+			"update_selected_entities",
+			"selec",
+			"send",
+			"SetHullRadius",
+			"hulll",
+			"block",
+			"give_p",
+			"ADVANCED_MENU_ABILITIES",
+			"BASIC_MENU_ABILITIES",
+			"NO_MENU_ABILITIES",
+			"LoadKeyValues",
+			"explore",
+			"\"",
+			"explo",
+			"janitor",
+			"foodCost",
+			"background_wide",
+			"InventoryItemTooltip",
+			"IsInAbilityLearnMode",
+			"ActionPanelRoot",
+			"no_mana_cost",
+			"m_Ability",
+			"ManaCost",
+			"shop",
+			"print",
+			"stop",
+			"modelParticle",
+			"SnapToGrid32",
+			"setval",
+			"MaxScale",
+			"modelpart",
+			"activeBuilding",
+			"fMaxScale",
+			"mgd",
+			"modelParticle",
+			"StartBuildingHelper",
+			"fMaxScale",
+			"remove"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"caster.currentArea",
+			"",
+			"hero",
+			"GameMode.LOTTERY_STATE",
+			"GameMode.buildingMenus[\"advanced_building_menu\"]",
+			"GameMode.buildingMenus[\"basic_building_menu\"]",
+			"GameMode.buildingMenus[\"kvn_fan_abilities\"]",
+			"particle"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ewix-reborn.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 389.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
