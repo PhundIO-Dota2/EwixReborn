@@ -5,10 +5,10 @@ function Catch( keys )
 
     local catch_duration = ability:GetLevelSpecialValueFor("catch_duration", ability:GetLevel() - 1)
 
-    particle = ParticleManager:CreateParticle("particles/units/heroes/hero_windrunner/windrunner_shackleshot_pair_rope.vpcf", PATTACH_CUSTOMORIGIN, caster)
+    particle = ParticleManager:CreateParticle("particles/units/heroes/hero_batrider/batrider_flaming_lasso.vpcf", PATTACH_CUSTOMORIGIN, caster)
 
-    ParticleManager:SetParticleControlEnt(particle, 0, caster, PATTACH_ABSORIGIN_FOLLOW, "attach_attack1", caster:GetAbsOrigin() + Vector(0,0,16), true)
-    ParticleManager:SetParticleControlEnt(particle, 1, target, PATTACH_ABSORIGIN_FOLLOW, "attach_hitloc", target:GetAbsOrigin() + Vector(0,0,16), true)
+    ParticleManager:SetParticleControlEnt(particle, 0, caster, PATTACH_POINT_FOLLOW, "attach_attack1", caster:GetAbsOrigin() + Vector(0,0,16), true)
+    ParticleManager:SetParticleControlEnt(particle, 1, target, PATTACH_POINT_FOLLOW, "attach_hitloc", target:GetAbsOrigin() + Vector(0,0,16), true)
     --ParticleManager:SetParticleControlEnt(particle, 2, caster, PATTACH_ABSORIGIN_FOLLOW, "attach_hitloc", Vector(10,0,0), true)
 
 	ability:ApplyDataDrivenModifier(caster, target, "mirorrow_catch_catched", {Duration = catch_duration})

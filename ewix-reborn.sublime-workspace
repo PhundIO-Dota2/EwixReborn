@@ -120,18 +120,26 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "/C/Users/TideSofDarK/Desktop/Мирорро - один из воителей",
 			"settings":
 			{
-				"buffer_size": 194,
+				"buffer_size": 1960,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "game/dota_addons/ewix/scripts/npc/abilities/heroes/mirorrow/mirorrow_battle_astral.txt",
 			"settings":
 			{
-				"buffer_size": 152,
+				"buffer_size": 2725,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "game/dota_addons/ewix/scripts/npc/abilities/heroes/mirorrow/mirorrow_catch.txt",
+			"settings":
+			{
+				"buffer_size": 2430,
 				"line_ending": "Windows"
 			}
 		}
@@ -172,10 +180,40 @@
 	},
 	"expanded_folders":
 	[
-		"/E/workspace/EwixReborn"
+		"/E/workspace/EwixReborn",
+		"/E/workspace/EwixReborn/content",
+		"/E/workspace/EwixReborn/content/dota_addons",
+		"/E/workspace/EwixReborn/content/dota_addons/ewix",
+		"/E/workspace/EwixReborn/content/dota_addons/ewix/panorama",
+		"/E/workspace/EwixReborn/game",
+		"/E/workspace/EwixReborn/game/dota_addons",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/panorama",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/panorama/localization",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/resource",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/resource/flash3",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/npc",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/npc/abilities",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/npc/abilities/heroes",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/npc/abilities/heroes/mirorrow",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/npc/heroes",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/vscripts",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/vscripts/abilities",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/vscripts/abilities/heroes",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/vscripts/abilities/heroes/mirorrow"
 	],
 	"file_history":
 	[
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/npc/herolist.txt",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/npc/npc_heroes_custom.txt",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/resource/addon_english.txt",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/npc/abilities/heroes/mirorrow/mirorrow_catch.txt",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/vscripts/abilities/heroes/mirorrow/catch.lua",
+		"/E/workspace/EwixReborn/game/dota_addons/ewix/scripts/npc/heroes/npc_dota_hero_ancient_apparition_ewix.txt",
+		"/E/workspace/EwixReborn/content/dota_addons/ewix/tooltips_english.txt",
+		"/E/workspace/EwixReborn/.gitignore",
+		"/E/workspace/EwixReborn/README.md",
 		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/addon_game_mode.lua",
 		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/heroes/npc_petri_kvn_fan.txt",
 		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/events.lua",
@@ -294,20 +332,11 @@
 		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/shops/petri_alpha_dire_shops.txt",
 		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/shops/petri_alpha_shops.txt",
 		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_mega_sith.txt",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_stone_of_power.txt",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/build_petri_wall.txt",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/vscripts/libraries/animations.lua",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_repair.txt",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_idol.txt",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/heroes/npc_petri_dummy_hero.txt",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/units/npc_petri_lab.txt",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_janitor_take_items_from_stash.txt",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/abilities/petri_janitor_transfer_items.txt",
-		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/resource/addon_schinese.txt"
+		"/E/workspace/PetriReborn/game/dota_addons/petri_reborn/scripts/npc/items/item_petri_stone_of_power.txt"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -482,47 +511,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "/C/Users/TideSofDarK/Desktop/Мирорро - один из воителей",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 194,
+						"buffer_size": 1960,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								135,
-								135
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								152,
-								133
+								958,
+								958
 							]
 						],
 						"settings":
@@ -530,10 +531,70 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "game/dota_addons/ewix/scripts/npc/abilities/heroes/mirorrow/mirorrow_battle_astral.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2307,
+								2307
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Dota KV/dotaKV.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 803.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "game/dota_addons/ewix/scripts/npc/abilities/heroes/mirorrow/mirorrow_catch.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2410,
+								2410
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Dota KV/dotaKV.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

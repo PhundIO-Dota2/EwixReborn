@@ -1,0 +1,125 @@
+"mirorrow_battle_astral"
+{
+    "BaseClass"                     "ability_datadriven"
+    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+    "AbilityTextureName"            "pugna_decrepify"
+
+    "AbilityCastPoint"              "0.1"
+    
+    "AbilityCooldown"               "15.0 14.0 13.0 12.0 11.0 10.0 9.0"
+    "AbilityDuration"               "1.25 1.5 1.75 2.0 2.25 2.5 2.75"
+
+    "AbilityManaCost"               "60"
+
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"                  "FIELD_FLOAT"
+            "agility_coef"      "2.0 2.25 2.5 2.75 3.0 3.25 3.5"
+        }
+        "02"
+        {
+            "var_type"                  "FIELD_INTEGER"
+            "damage_radius"      "550"
+        }
+    }
+
+    "precache"
+    {
+        "particle"  "particles/units/heroes/hero_pugna/pugna_decrepify.vpcf"
+        "particle"  "particles/units/heroes/hero_pugna/pugna_netherblast.vpcf"
+        "particle"  "particles/units/heroes/hero_pugna/pugna_netherblast_pre.vpcf"
+        "soundfile" "soundevents/game_sounds_heroes/game_sounds_pugna.vsndevts"
+    }
+
+    "MaxLevel" "7"
+
+    "OnSpellStart"
+    {
+        "FireSound"
+        {
+            "EffectName"    "Hero_Pugna.Decrepify"
+            "Target"        "CASTER"
+        }
+        
+        "ApplyModifier"
+        {
+            "ModifierName"  "mirorrow_battle_astral_buff"
+            "Target"
+            {
+                "Center"    "CASTER"
+                "Teams"     "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+            }
+            "Duration"      "%AbilityDuration"
+        }
+
+        "ActOnTargets"
+        {
+            "Target"
+            {
+                "Center" "CASTER"
+                "Radius" "%damage_radius"
+                "Teams" "DOTA_UNIT_TARGET_TEAM_ENEMY" 
+                "Types" "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+            }
+
+            "Action"
+            {
+                "DelayedAction"
+                {
+                    "Delay"     "%AbilityDuration"
+
+                    "Action"
+                    {
+                        "RunScript"
+                        {
+                            "ScriptFile"    "abilities/heroes/mirorrow/battle_astral.lua"
+                            "Function"      "Damage"
+                        }
+						
+						"FireEffect"
+						{
+							"EffectName"        "particles/units/heroes/hero_pugna/pugna_netherblast.vpcf"
+							"EffectAttachType"  "follow_origin"
+							"Target"            "TARGET"
+
+							"ControlPoints"
+							{
+								"01"                "100 100 100"
+							}
+						}
+                    }
+                }
+            }
+        }
+    }
+
+    "Modifiers"
+    {
+        "mirorrow_battle_astral_buff"
+        {
+            "IsDebuff"          "1"
+    
+            "EffectName"        "particles/units/heroes/hero_pugna/pugna_decrepify.vpcf"
+            "EffectAttachType"  "follow_origin"
+
+            "States"
+            {
+                "MODIFIER_STATE_DISARMED"       "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_ATTACK_IMMUNE"  "MODIFIER_STATE_VALUE_ENABLED"
+            }       
+
+            "ThinkInterval" "0.3"
+            "OnIntervalThink"
+            {
+                "RunScript"
+                {
+                    "ScriptFile"    "abilities/heroes/mirorrow/battle_astral.lua"
+                    "Function"      "Heal"
+                }
+            }
+        }
+    }
+}
+

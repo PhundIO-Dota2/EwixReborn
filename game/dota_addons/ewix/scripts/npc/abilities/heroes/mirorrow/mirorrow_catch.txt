@@ -11,8 +11,8 @@
     "precache"
     {
         "soundfile"         "soundevents/game_sounds_heroes/game_sounds_windrunner.vsndevts"
-        "particle"          "particles/units/heroes/hero_windrunner/windrunner_shackleshot.vpcf"
-        "particle"          "particles/units/heroes/hero_windrunner/windrunner_shackleshot_pair.vpcf"
+        "particle"          "particles/units/heroes/hero_batrider/batrider_flaming_lasso.vpcf"
+        "particle"          "particles/units/heroes/hero_batrider/batrider_flamebreak_explosion.vpcf"
     }
 
     "MaxLevel" "7"
@@ -78,6 +78,22 @@
                 {
                     "ScriptFile"    "abilities/heroes/mirorrow/catch.lua"
                     "Function"        "Pulling"
+                }
+            }
+
+            "OnDestroy"
+            {
+                "FireEffect"
+                {
+                    "EffectName"        "particles/units/heroes/hero_batrider/batrider_flamebreak_explosion.vpcf"
+                    "EffectAttachType"  "follow_origin"
+                    "Target"            "TARGET"
+                }
+                "Damage"
+                {
+                    "Target"    "TARGET"
+                    "Type"      "DAMAGE_TYPE_MAGICAL"
+                    "Damage"    "%AbilityDamage"
                 }
             }
         }

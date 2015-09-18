@@ -4,7 +4,7 @@
     "override_hero"     "npc_dota_hero_antimage"
 
     "Ability1"        "mirorrow_catch" 
-    "Ability2"        "ewix_empty2" 
+    "Ability2"        "mirorrow_battle_astral" 
     "Ability3"        "ewix_empty3" 
     "Ability4"        "ewix_empty4"
     "Ability5"        "ewix_empty5"
@@ -46,9 +46,9 @@
     "MovementSpeed"       "360"                 // Speed.
     "MovementTurnRate"      "1.0"                 // Turning rate.
 
-    "StatusHealth"        "1000"                 // Base health.
+    "StatusHealth"        "20"                 // Base health.
     "StatusHealthRegen"     "0.0"                 // Health regeneration rate.
-    "StatusMana"        "400"                   // Base mana.
+    "StatusMana"        "10"                   // Base mana.
     "StatusManaRegen"     "100.0"                 // Mana regeneration rate.
 
     "VisionDaytimeRange"    "1800"                  // Range of vision at night time.
