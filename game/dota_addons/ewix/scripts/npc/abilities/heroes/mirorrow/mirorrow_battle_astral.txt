@@ -66,31 +66,23 @@
 
             "Action"
             {
-                "DelayedAction"
+                "RunScript"
                 {
-                    "Delay"     "%AbilityDuration"
-
-                    "Action"
-                    {
-                        "RunScript"
-                        {
-                            "ScriptFile"    "abilities/heroes/mirorrow/battle_astral.lua"
-                            "Function"      "Damage"
-                        }
-						
-						"FireEffect"
-						{
-							"EffectName"        "particles/units/heroes/hero_pugna/pugna_netherblast.vpcf"
-							"EffectAttachType"  "follow_origin"
-							"Target"            "TARGET"
-
-							"ControlPoints"
-							{
-								"01"                "100 100 100"
-							}
-						}
-                    }
+                    "ScriptFile"    "abilities/heroes/mirorrow/battle_astral.lua"
+                    "Function"      "Damage"
                 }
+						
+				"FireEffect"
+				{
+					"EffectName"        "particles/units/heroes/hero_pugna/pugna_netherblast.vpcf"
+					"EffectAttachType"  "follow_origin"
+					"Target"            "TARGET"
+
+					"ControlPoints"
+					{
+						"01"                "100 100 100"
+					}
+				}
             }
         }
     }
@@ -104,11 +96,31 @@
             "EffectName"        "particles/units/heroes/hero_pugna/pugna_decrepify.vpcf"
             "EffectAttachType"  "follow_origin"
 
+            "OnCreated"
+            {
+                "RunScript"
+                {
+                    "ScriptFile"        "abilities/heroes/mirorrow/battle_astral.lua"
+                    "Function"          "HideCaster"
+                }
+            }
+            
+            "OnDestroy"
+            {
+                "RunScript"
+                {
+                    "ScriptFile"        "abilities/heroes/mirorrow/battle_astral.lua"
+                    "Function"          "ShowCaster"
+                }
+            }
+
             "States"
             {
-                "MODIFIER_STATE_DISARMED"       "MODIFIER_STATE_VALUE_ENABLED"
-                "MODIFIER_STATE_ATTACK_IMMUNE"  "MODIFIER_STATE_VALUE_ENABLED"
-            }       
+                "MODIFIER_STATE_ATTACK_IMMUNE"          "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_MAGIC_IMMUNE"           "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_UNSELECTABLE"           "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_NO_HEALTH_BAR"          "MODIFIER_STATE_VALUE_ENABLED"
+            }    
 
             "ThinkInterval" "0.3"
             "OnIntervalThink"

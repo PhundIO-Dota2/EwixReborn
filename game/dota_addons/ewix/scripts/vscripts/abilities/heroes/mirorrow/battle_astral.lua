@@ -1,3 +1,11 @@
+function HideCaster( event )
+    event.caster:AddNoDraw()
+end
+
+function ShowCaster( event )
+    event.caster:RemoveNoDraw()
+end
+
 function Damage( keys )
 	local caster = keys.caster
     local target = keys.target
