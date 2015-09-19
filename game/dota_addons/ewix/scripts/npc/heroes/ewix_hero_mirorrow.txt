@@ -5,7 +5,7 @@
 
     "Ability1"        "mirorrow_catch" 
     "Ability2"        "mirorrow_battle_astral" 
-    "Ability3"        "ewix_empty3" 
+    "Ability3"        "mirorrow_mirror" 
     "Ability4"        "ewix_empty4"
     "Ability5"        "ewix_empty5"
     "Ability6"        "ewix_empty6"
