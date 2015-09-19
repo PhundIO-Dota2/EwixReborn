@@ -1,0 +1,130 @@
+"mirorrow_mass_slow"
+{
+    "BaseClass"                     "ability_datadriven"
+    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+    "AbilityType"                   "DOTA_ABILITY_TYPE_ULTIMATE"
+    "AbilityCastRange"              "650"
+    "AbilityCastPoint"              "0.25"
+
+    "AbilityTextureName"            "obsidian_destroyer_sanity_eclipse"
+    "AOERadius"                     "%radius"
+
+    "AbilityCooldown"               "25.0"
+
+    "AbilityManaCost"               "175"
+
+    "AbilityDamage"                 "200 250 300 350 400"
+
+    "AbilitySpecial"
+    {
+        "01"
+        {
+            "var_type"                      "FIELD_INTEGER"
+            "duration"                      "7"
+        }
+        "02"
+        {
+            "var_type"                      "FIELD_INTEGER"
+            "attack_speed_reduction"        "-33 -44 -55 -66 -77"
+        }
+        "03"
+        {
+            "var_type"                      "FIELD_INTEGER"
+            "move_speed_reduction"        "-13 -26 -39 -52 -65"
+        }
+        "04"
+        {
+            "var_type"                  "FIELD_INTEGER"
+            "radius"                    "575"
+        } 
+    }
+
+    "precache"
+    {
+        "soundfile"     "soundevents/game_sounds_heroes/game_sounds_obsidian_destroyer.vsndevts"        
+        "particle"      "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_area.vpcf"
+        "particle"      "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_area_aoe.vpcf"
+        "particle"      "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_area_embers.vpcf" 
+        "particle"      "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_area_glow.vpcf"
+        "particle"      "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_damage.vpcf"
+        "particle"      "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_mana_loss.vpcf"
+        "particle"      "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_smoke_main.vpcf"  
+    }
+
+    "MaxLevel" "5"
+
+    "OnSpellStart"
+    {
+        "FireSound"
+        {
+            "EffectName"    "Hero_ObsidianDestroyer.SanityEclipse.Cast"
+            "Target"    "CASTER"
+        }
+
+        "FireSound"
+        {
+            "EffectName"    "Hero_ObsidianDestroyer.SanityEclipse"
+            "Target"    "CASTER"
+        }
+
+        "FireEffect"
+        { 
+            "EffectName"    "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_sanity_eclipse_area.vpcf"
+            "EffectAttachType"  "start_at_customorigin"
+            "TargetPoint"   "POINT"
+
+            "ControlPoints"
+            {
+                "00" "POINT"
+                "01" "%radius 0 0"
+                "02" "%radius 0 0"
+                "03" "%radius 0 0"              
+            }
+        }       
+
+        "ActOnTargets"
+        {
+            "Target"
+            {
+                "Center"    "POINT"
+                "Radius"    "%radius"
+                "Teams"     "DOTA_UNIT_TARGET_TEAM_ENEMY"
+                "Type"      "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+            }
+
+            "Action"
+            {
+                "Damage"
+                {
+                    "Target"    "TARGET"
+                    "Type"      "DAMAGE_TYPE_MAGICAL"
+                    "Damage"    "%AbilityDamage"
+                }
+
+                "ApplyModifier"
+                {
+                    "ModifierName"    "mirorrow_mass_slow_slowed"
+                    "Target"         "TARGET"
+                    "Duration"        "%duration"
+                }
+            }
+        }
+    }
+
+    "Modifiers"
+    {
+        "mirorrow_mass_slow_slowed"
+        {
+            "IsDebuff"          "1"
+    
+            "EffectName"        "particles/units/heroes/hero_pugna/pugna_decrepify.vpcf"
+            "EffectAttachType"  "follow_origin"
+
+            "Properties"
+            {
+                "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE"          "%move_speed_reduction"
+                "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"          "%attack_speed_reduction"
+            }    
+        }
+    }
+}
