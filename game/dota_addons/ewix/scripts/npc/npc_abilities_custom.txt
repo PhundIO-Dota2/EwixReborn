@@ -1,5 +1,54 @@
 "DOTAAbilities"
 {
+	"hatos_finger_of_death"
+	{
+	    "BaseClass"                     "ability_datadriven"
+	    "AbilityBehavior"               "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+	    "AbilityUnitTargetTeam"         "DOTA_UNIT_TARGET_TEAM_ENEMY"
+	    "AbilityUnitTargetType"         "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	    "SpellImmunityType"             "SPELL_IMMUNITY_ENEMIES_NO"
+	
+	    "AbilityTextureName"            "lion_finger_of_death"
+	
+	    "precache"
+	    {
+	        "soundfile" "soundevents/game_sounds_heroes/game_sounds_abaddon.vsndevts"
+	    }
+	
+	    "MaxLevel" "7"
+	
+	    "AbilityCastRange"              "600"
+	    "AbilityCastPoint"              "0.01"
+	    
+	    "AbilityCooldown"               "8.0"
+	
+	    "AbilityDamage"                 "54 108 162 216 270 324 378"
+	
+	    "AbilityManaCost"               "100 110 120 130 140 150 160"
+	
+	    "OnSpellStart"
+	    {
+	        "FireSound"
+	        {
+	            "EffectName"    "Hero_Abaddon.AphoticShield.Cast"
+	            "Target"        "TARGET"  
+	        }
+	
+	        "RunScript"
+	        {
+	            "ScriptFile"    "abilities/heroes/hatos/figner_of_death.lua"
+	            "Function"      "Purge"
+	        }
+	
+	        "Damage"
+	        {
+	            "Target"    "TARGET"
+	            "Type"      "DAMAGE_TYPE_MAGICAL"
+	            "Damage"    "%AbilityDamage"
+	        }
+	    }
+	}
+	
 	"mirorrow_battle_astral"
 	{
 	    "BaseClass"                     "ability_datadriven"

@@ -1,0 +1,40 @@
+"ewix_hero_hatos"
+{
+    "AbilityLayout"     "4"
+    "override_hero"     "npc_dota_hero_doom_bringer"
+
+    "Ability1"        "hatos_catch" 
+    "Ability2"        "hatos_battle_astral" 
+    "Ability3"        "hatos_mirror" 
+    "Ability4"        "hatos_mass_slow"
+
+    "ArmorPhysical"       "0"
+    "MagicalResistance"       "0"
+
+    "AttackCapabilities"    "DOTA_UNIT_CAP_MELEE_ATTACK"
+    "AttackDamageMin"     "28"
+    "AttackDamageMax"     "51" 
+
+    "AttributeBaseStrength"   "11"
+    "AttributeStrengthGain"   "2.25"
+    "AttributeBaseIntelligence" "11"
+    "AttributeIntelligenceGain" "1.8"
+    "AttributeBaseAgility"    "11"
+    "AttributeAgilityGain"    "1.7"
+
+    "BountyXP"          "0"
+    "BountyGoldMin"       "0"
+    "BountyGoldMax"       "0"
+
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"
+    "MovementSpeed"       "360" 
+    "MovementTurnRate"      "1.0"
+
+    "StatusHealth"        "20"
+    "StatusHealthRegen"     "0.0"
+    "StatusMana"        "10"
+    "StatusManaRegen"     "100.0"
+
+    "VisionDaytimeRange"    "1800"
+    "VisionNighttimeRange"    "1800"
+}
